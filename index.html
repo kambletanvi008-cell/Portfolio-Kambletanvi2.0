@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Tanvi Kamble — Computer Science graduate and aspiring IT professional.">
+<title>Tanvi Kamble | Portfolio</title>
+<style>
+:root{--bg:#0b1020;--panel:#121a2e;--text:#eef2ff;--muted:#a8b2cc;--accent:#8b5cf6;--accent2:#22d3ee;--line:rgba(255,255,255,.11)}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{font-family:Inter,Segoe UI,Arial,sans-serif;background:radial-gradient(circle at 80% 0%,#1e2350 0,transparent 36%),var(--bg);color:var(--text);line-height:1.6}
+a{color:inherit;text-decoration:none}
+.container{width:min(1100px,92%);margin:auto}
+header{position:sticky;top:0;z-index:10;background:rgba(11,16,32,.88);backdrop-filter:blur(14px);border-bottom:1px solid var(--line)}
+nav{display:flex;align-items:center;justify-content:space-between;padding:16px 0}
+.logo{font-weight:800;font-size:1.15rem;letter-spacing:.3px}.logo span{color:var(--accent2)}
+.navlinks{display:flex;gap:24px;color:var(--muted);font-size:.94rem}.navlinks a:hover{color:white}
+.hero{min-height:82vh;display:grid;grid-template-columns:1.25fr .75fr;gap:40px;align-items:center;padding:75px 0}
+.eyebrow{color:var(--accent2);font-weight:700;letter-spacing:2px;text-transform:uppercase;font-size:.8rem}
+h1{font-size:clamp(2.7rem,6vw,5rem);line-height:1.08;margin:16px 0}
+.gradient{background:linear-gradient(90deg,var(--accent2),#b794ff);-webkit-background-clip:text;background-clip:text;color:transparent}
+.hero p{color:var(--muted);max-width:650px;font-size:1.08rem}
+.buttons{display:flex;gap:14px;flex-wrap:wrap;margin-top:28px}
+.btn{display:inline-block;padding:12px 20px;border-radius:12px;font-weight:700;border:1px solid var(--line);transition:.2s}
+.btn.primary{background:linear-gradient(90deg,var(--accent),#6366f1);border:none}.btn:hover{transform:translateY(-2px)}
+.hero-card{background:linear-gradient(145deg,rgba(139,92,246,.22),rgba(34,211,238,.08));border:1px solid var(--line);border-radius:24px;padding:32px;box-shadow:0 20px 70px rgba(0,0,0,.25)}
+.hero-card .monogram{width:110px;height:110px;border-radius:28px;display:grid;place-items:center;font-size:2.4rem;font-weight:800;background:linear-gradient(135deg,var(--accent),var(--accent2));margin-bottom:22px}
+.hero-card h3{font-size:1.4rem;margin-bottom:8px}.hero-card p{font-size:.95rem}
+section{padding:70px 0}.section-title{font-size:2rem;margin-bottom:10px}.section-intro{color:var(--muted);margin-bottom:30px}
+.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
+.card{background:rgba(18,26,46,.85);border:1px solid var(--line);border-radius:18px;padding:24px}
+.card h3{margin-bottom:10px}.card p,.card li{color:var(--muted)}
+.skills{display:flex;flex-wrap:wrap;gap:10px}
+.tag{padding:8px 12px;background:rgba(139,92,246,.14);border:1px solid rgba(139,92,246,.28);border-radius:999px;color:#ddd5ff;font-size:.9rem}
+.project{display:flex;flex-direction:column;min-height:260px}.project .tags{display:flex;flex-wrap:wrap;gap:8px;margin:14px 0}.project .tag{font-size:.78rem;padding:5px 9px}.project .more{margin-top:auto;color:var(--accent2);font-weight:700}
+.timeline{display:grid;gap:16px}.timeline-item{border-left:2px solid var(--accent);padding:4px 0 4px 18px}.timeline-item h3{margin-bottom:4px}.timeline-item p{color:var(--muted)}
+.contactbox{display:flex;flex-wrap:wrap;gap:14px;margin-top:24px}
+footer{text-align:center;color:var(--muted);padding:28px 0;border-top:1px solid var(--line)}
+@media(max-width:800px){.hero{grid-template-columns:1fr;min-height:auto;padding:55px 0}.grid{grid-template-columns:1fr 1fr}.navlinks{gap:12px;font-size:.82rem}}
+@media(max-width:560px){.navlinks{display:none}.grid{grid-template-columns:1fr}section{padding:50px 0}h1{font-size:2.7rem}}
+</style>
+</head>
+<body>
+<header><div class="container"><nav>
+<a class="logo" href="#home">Tanvi<span>.</span></a>
+<div class="navlinks"><a href="#about">About</a><a href="#skills">Skills</a><a href="#projects">Projects</a><a href="#experience">Experience</a><a href="#contact">Contact</a></div>
+</nav></div></header>
+<main>
+<div class="container">
+<section class="hero" id="home">
+<div>
+<div class="eyebrow">Computer Science Graduate · Aspiring IT Professional</div>
+<h1>Hi, I'm <span class="gradient">Tanvi Kamble</span></h1>
+<p>I'm a Computer Science graduate interested in software development, data analytics, and technology-driven problem solving. I enjoy learning new tools and building practical projects that turn ideas into useful solutions.</p>
+<div class="buttons"><a class="btn primary" href="#projects">Explore My Projects</a><a class="btn" href="#contact">Contact Me</a></div>
+</div>
+<div class="hero-card"><div class="monogram">TK</div><h3>Curious. Creative. Always learning.</h3><p>Focused on building technical skills, gaining real-world experience, and growing into a collaborative technology professional.</p></div>
+</section>
+
+<section id="about">
+<h2 class="section-title">About Me</h2>
+<p class="section-intro">A little about my background and what I bring to a team.</p>
+<div class="card"><p>I'm a B.Sc. Computer Science graduate with foundational knowledge in programming, web development, databases, and data analytics. Through academic projects and training, I've worked with technologies such as Java, Python, SQL, HTML, CSS, JavaScript, and Power BI. I'm looking for an entry-level opportunity where I can apply my knowledge, learn from experienced professionals, and contribute with curiosity and commitment.</p></div>
+</section>
+
+<section id="skills">
+<h2 class="section-title">Technical Skills</h2>
+<p class="section-intro">Tools and technologies I have studied or practiced.</p>
+<div class="card">
+<h3>Programming Languages</h3><div class="skills" style="margin:12px 0 22px"><span class="tag">Java</span><span class="tag">Python</span><span class="tag">C</span><span class="tag">C++</span><span class="tag">SQL</span></div>
+<h3>Web Development</h3><div class="skills" style="margin:12px 0 22px"><span class="tag">HTML</span><span class="tag">CSS</span><span class="tag">JavaScript</span><span class="tag">PHP</span></div>
+<h3>Database & Analytics</h3><div class="skills" style="margin:12px 0 22px"><span class="tag">MySQL</span><span class="tag">DBMS</span><span class="tag">Excel</span><span class="tag">Power BI</span></div>
+<h3>Tools & Fundamentals</h3><div class="skills" style="margin:12px 0 0"><span class="tag">VS Code</span><span class="tag">OOP</span><span class="tag">Data Structures</span><span class="tag">Operating Systems</span><span class="tag">Computer Networks</span><span class="tag">Software Testing</span></div>
+</div>
+</section>
+
+<section id="projects">
+<h2 class="section-title">Featured Projects</h2>
+<p class="section-intro">Academic and learning projects demonstrating my technical interests.</p>
+<div class="grid">
+<div class="card project"><h3>AI Early Childhood Learning Assistant</h3><p>Interactive educational web app with learning modules for alphabets, numbers, colors, shapes, animals, fruits, vehicles, stories, and quizzes. Includes text-to-speech and local progress tracking.</p><div class="tags"><span class="tag">HTML</span><span class="tag">CSS</span><span class="tag">JavaScript</span></div><span class="more">Learning-focused web app</span></div>
+<div class="card project"><h3>Smart Flood Monitoring System</h3><p>Flood-monitoring project concept combining water-level sensing, a web dashboard, and alert functionality to support early awareness of rising water levels.</p><div class="tags"><span class="tag">Python</span><span class="tag">IoT</span><span class="tag">Web Dashboard</span></div><span class="more">Monitoring & alerts</span></div>
+<div class="card project"><h3>Retail Sales Performance Dashboard</h3><p>Dashboard project focused on presenting sales data, business KPIs, trends, and performance insights in a visual format for easier analysis.</p><div class="tags"><span class="tag">Excel</span><span class="tag">Power BI</span><span class="tag">Data Analytics</span></div><span class="more">Data visualization</span></div>
+<div class="card project"><h3>Remote STEM Education Application</h3><p>Application concept/prototype aimed at supporting remote STEM learning through accessible educational content and a student-friendly experience.</p><div class="tags"><span class="tag">Mobile App</span><span class="tag">UI/UX</span><span class="tag">Education</span></div><span class="more">Education technology</span></div>
+</div>
+</section>
+
+<section id="experience">
+<h2 class="section-title">Training & Certifications</h2>
+<p class="section-intro">Professional learning and simulation experiences.</p>
+<div class="timeline">
+<div class="timeline-item"><h3>Data Analytics Internship / Training — Quantum Learnings</h3><p>Practical exposure to data handling and analytics concepts, including dataset processing, cleaning, visualization, and reporting workflows.</p></div>
+<div class="timeline-item"><h3>Data Science & Machine Learning — NASSCOM</h3><p>Certification / learning program.</p></div>
+<div class="timeline-item"><h3>Data Science & Analytics — HP LIFE</h3><p>Certification / learning program.</p></div>
+<div class="timeline-item"><h3>Generative AI Content Creation — Coursera</h3><p>Certification / learning program.</p></div>
+<div class="timeline-item"><h3>Virtual Simulations</h3><p>AWS Cloud Computing · Cybersecurity · Data Analytics · Solutions Architecture</p></div>
+</div>
+</section>
+
+<section id="contact">
+<h2 class="section-title">Let's Connect</h2>
+<p class="section-intro">I'm open to entry-level opportunities, internships, and professional connections.</p>
+<div class="card">
+<p><strong>Email:</strong> <a href="mailto:kambletanvi008@gmail.com">kambletanvi008@gmail.com</a></p>
+<p style="margin-top:8px"><strong>Phone:</strong> <a href="tel:+919356598733">+91 9356598733</a></p>
+<p style="margin-top:8px"><strong>Location:</strong> Pune, Maharashtra, India</p>
+<div class="contactbox"><a class="btn primary" href="mailto:kambletanvi008@gmail.com">Email Me</a><a class="btn" href="https://www.linkedin.com/in/tanvi-kamble-3772253b0/" target="_blank" rel="noopener">LinkedIn Profile</a></div>
+</div>
+</section>
+</div>
+</main>
+<footer><div class="container">© 2026 Tanvi Kamble · Personal Portfolio</div></footer>
+</body>
+</html>
